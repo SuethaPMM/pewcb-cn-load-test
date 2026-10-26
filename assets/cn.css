@@ -1,0 +1,86 @@
+/* Simplified Chinese typography. System fonts only; no external font requests. */
+:root{--cn-font:"PingFang SC","Microsoft YaHei","Noto Sans CJK SC","Source Han Sans SC",system-ui,Arial,sans-serif}
+video::cue{font-family:"PingFang SC","Microsoft YaHei",sans-serif;font-size:18px;line-height:1.5;background:#000c;color:#fff}
+html[lang="zh-Hans"]{font-family:var(--cn-font);line-break:strict;text-size-adjust:100%;-webkit-text-size-adjust:100%}
+html[lang="zh-Hans"] body,html[lang="zh-Hans"] body *:not(code):not(pre):not(kbd){font-family:var(--cn-font)!important}
+html[lang="zh-Hans"] h1,html[lang="zh-Hans"] h2,html[lang="zh-Hans"] h3,html[lang="zh-Hans"] h4{letter-spacing:0!important;line-height:1.35;word-break:normal;overflow-wrap:anywhere;text-wrap:pretty}
+html[lang="zh-Hans"] p,html[lang="zh-Hans"] dd,html[lang="zh-Hans"] li,html[lang="zh-Hans"] address{letter-spacing:0;line-height:1.85;overflow-wrap:anywhere;word-break:normal}
+html[lang="zh-Hans"] a,html[lang="zh-Hans"] button{letter-spacing:0}
+html[lang="zh-Hans"] input,html[lang="zh-Hans"] select,html[lang="zh-Hans"] textarea{font-size:15px;line-height:1.6;min-width:0}
+html[lang="zh-Hans"] .pewcb-site-header__inner{gap:18px}
+html[lang="zh-Hans"] .pewcb-site-header__pages{gap:22px}
+html[lang="zh-Hans"] .pewcb-site-header__pages>a{font-size:14px}
+html[lang="zh-Hans"] .pewcb-site-header__language>a,html[lang="zh-Hans"] .pewcb-site-header__language>span{font-family:Arial,sans-serif!important;letter-spacing:.02em}
+html[lang="zh-Hans"] .pewcb-site-header__language-current{color:#fff}
+html[lang="zh-Hans"] .pewcb-hero__title{font-size:clamp(40px,4.6vw,68px);line-height:1.25;max-width:10.5em}
+html[lang="zh-Hans"] .pewcb-hero__lead{max-width:36em;font-size:16px;line-height:1.9}
+html[lang="zh-Hans"] .pewcb-v5 h2{font-size:clamp(30px,3.2vw,44px);line-height:1.35}
+html[lang="zh-Hans"] .rev-section-subtitle{font-size:23px!important;line-height:1.55!important;letter-spacing:0!important}
+html[lang="zh-Hans"] .pewcb-workflow__step-title{font-size:20px;line-height:1.5}
+html[lang="zh-Hans"] .pewcb-functional__cycle{gap:18px}
+html[lang="zh-Hans"] .pewcb-fabs__card{padding:20px;min-width:0}
+html[lang="zh-Hans"] .pewcb-fabs__card-title{font-size:17px}
+html[lang="zh-Hans"] .pewcb-fabs__card-text{font-size:14px;line-height:1.8}
+html[lang="zh-Hans"] .pewcb-fabs__subtitle{line-height:1.6}
+html[lang="zh-Hans"] .pewcb-early__group-title{font-size:22px}
+html[lang="zh-Hans"] .pewcb-early__row-label{line-height:1.7}
+html[lang="zh-Hans"] .pewcb-contact__consent{line-height:1.7}
+html[lang="zh-Hans"] .pewcb-contact__success[hidden],html[lang="zh-Hans"] .cn-form-status[hidden]{display:none!important}
+html[lang="zh-Hans"] .cn-form-status{font-size:14px;line-height:1.8;margin-top:18px;color:#242627}
+html[lang="zh-Hans"] .cn-form-status[data-error="true"]{color:#b52616}
+html[lang="zh-Hans"] .pewcb-cookie__dialog{line-height:1.8}
+html[lang="zh-Hans"] .pewcb-cookie__category summary{font-size:15px}
+html[lang="zh-Hans"] .pewcb-cookie__description{line-height:1.8}
+html[lang="zh-Hans"] .policy-toc a{white-space:normal;line-height:1.65}
+html[lang="zh-Hans"] .policy-content,html[lang="zh-Hans"] .policy-copy{max-width:900px}
+html[lang="zh-Hans"] .policy-content p,html[lang="zh-Hans"] .policy-copy p{line-height:1.95}
+html[lang="zh-Hans"] .store-hero h1{font-size:clamp(36px,4.5vw,60px);max-width:12em}
+html[lang="zh-Hans"] .store-category h2{font-size:34px}
+html[lang="zh-Hans"] .store-order__name{font-size:25px;line-height:1.5}
+html[lang="zh-Hans"] .store-order__field{line-height:1.7}
+html[lang="zh-Hans"] .case-title{max-width:16em}
+html[lang="zh-Hans"] .case-summary dt,html[lang="zh-Hans"] .case-facts dt{line-height:1.6}
+html[lang="zh-Hans"] .cn-channel-icon{display:inline-flex;align-items:center;justify-content:center;min-width:22px;font-size:18px;line-height:1}
+html[lang="zh-Hans"] .pewcb-contact__socials .cn-channel-icon{width:36px;height:36px;border:1px solid #cbd0d5;border-radius:50%;font-size:16px}
+.cn-network-panel{height:100%;min-height:580px;border:1px solid #ffffff30;border-radius:4px;padding:44px;display:flex;flex-direction:column;justify-content:center;background:radial-gradient(circle at 85% 10%,#ff35001c,transparent 55%),#2b2d2f;color:white}
+.cn-network-panel h3{font-size:clamp(28px,3vw,40px);font-weight:400;margin:26px 0 20px;color:#fff;line-height:1.45}
+.cn-network-panel p{font-size:15px;max-width:28em;color:#ffffffb8}
+.cn-eyebrow{font-size:12px;letter-spacing:.08em;color:#ff764f}
+.cn-network-link{display:inline-flex;align-items:center;gap:16px;color:#ff825f!important;font-size:15px;text-decoration:none;margin-top:28px;align-self:flex-start}
+.cn-network-link:hover{text-decoration:underline;text-underline-offset:4px}
+.cn-network-options{display:flex;gap:12px;flex-wrap:wrap;margin-top:44px}
+.cn-network-options span{font-size:13px;border:1px solid #ffffff30;padding:10px 14px;border-radius:3px;color:#ffffffc0}
+.cn-extra-main{max-width:1200px;width:calc(100% - 64px);margin:auto;padding:64px 0 80px;color:#242627}
+.cn-extra-main h1{font-size:clamp(34px,4vw,54px);font-weight:400;line-height:1.35;margin:0 0 24px}
+.cn-extra-lead{max-width:760px;color:#626b73;font-size:16px;line-height:1.9;margin:0 0 40px}
+.cn-video-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px}
+.cn-video-card{margin:0;min-width:0;background:#f2f3f5;border-radius:4px;overflow:hidden}
+.cn-video-card>div:last-child{padding:24px}
+.cn-video-card h2{font-size:24px;font-weight:400;margin:0 0 12px}
+.cn-video-card p{font-size:14px;color:#626b73;margin:0}
+.cn-service-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
+.cn-service-card{background:#f2f3f5;padding:36px;border-radius:4px;min-width:0}
+.cn-service-card h2{font-size:26px;font-weight:400;margin:0 0 20px}
+.cn-service-card p{font-size:15px;color:#626b73;margin:0 0 28px}
+.cn-service-button{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 20px;background:#ff3500;color:#fff!important;border-radius:4px;text-decoration:none}
+.cn-qr-dialog{max-width:380px;width:calc(100% - 40px);padding:28px;border:1px solid #d2d6da;border-radius:4px;text-align:center;color:#242627;background:#fff}
+.cn-qr-dialog::backdrop{background:#0008}.cn-qr-dialog img{display:block;max-width:260px;width:100%;height:auto;margin:24px auto}.cn-qr-dialog button{border:1px solid #d2d6da;background:#fff;padding:10px 22px;min-height:44px;border-radius:4px;cursor:pointer}
+@media(max-width:900px){.cn-network-panel{min-height:420px}.cn-video-grid{grid-template-columns:1fr}.cn-service-grid{grid-template-columns:1fr}}
+@media(max-width:767px){html[lang="zh-Hans"] .pewcb-hero__title{font-size:38px;max-width:11em}html[lang="zh-Hans"] .pewcb-v5 h2{font-size:30px}html[lang="zh-Hans"] .rev-section-subtitle{font-size:21px!important}html[lang="zh-Hans"] .pewcb-site-header__inner{gap:12px}.cn-network-panel{padding:28px;min-height:390px}.cn-extra-main{width:calc(100% - 40px);padding:42px 0 60px}.cn-video-grid{gap:24px}.cn-service-card{padding:28px}.cn-video-card>div:last-child{padding:22px}}
+@media(max-width:399px){html[lang="zh-Hans"] .pewcb-site-header__inner{gap:8px}html[lang="zh-Hans"] .pewcb-hero__title{font-size:34px}.cn-extra-main{width:calc(100% - 32px)}.cn-network-panel{padding:24px}.cn-network-options{gap:8px}.cn-network-options span{padding:8px 10px;font-size:12px}}
+
+/* Keep consent controls compact despite the main page heading scale. */
+html[lang="zh-Hans"] .pewcb-footer-scope h2.pewcb-cookie__title{font-size:22px!important;line-height:1.45!important}
+html[lang="zh-Hans"] .pewcb-footer-scope .pewcb-cookie__text{font-size:14px;line-height:1.8}
+html[lang="zh-Hans"] .cn-channel-icon svg{display:block;flex-shrink:0}
+
+html[lang="zh-Hans"] .pewcb-footer-scope h2.pewcb-contact__title{font-size:clamp(30px,3.2vw,44px)!important;line-height:1.4!important}
+@media(max-width:600px){html[lang="zh-Hans"] .facts dd{white-space:nowrap;font-size:22px;line-height:1.5}}
+
+.cn-wechat-link{display:block;margin:14px 0 22px;color:#ff3c00;font-size:17px;text-decoration:none}.cn-wechat-link:hover{text-decoration:underline}.cn-qr-dialog img{max-width:min(72vw,360px);width:100%;height:auto;object-fit:contain}
+
+/* CN footer: one WeChat contact */
+html[lang="zh-Hans"] .pewcb-contact__socials.cn-footer-wechat{display:inline-flex;flex-direction:column;align-items:flex-start;gap:12px;width:fit-content;margin-top:28px;padding:16px;border:1px solid #d9dde0;border-radius:4px;background:#fff}
+html[lang="zh-Hans"] .cn-footer-wechat__title{display:inline-flex;align-items:center;gap:10px;color:#262829;font-size:16px;line-height:1.4}
+html[lang="zh-Hans"] .cn-footer-wechat__title .cn-wechat-icon{width:26px;height:26px;flex:none;fill:currentColor;color:#07c160}
+html[lang="zh-Hans"] .cn-footer-wechat__qr{display:block;width:176px;height:176px;max-width:100%;object-fit:contain}

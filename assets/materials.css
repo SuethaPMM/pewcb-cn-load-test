@@ -1,0 +1,87 @@
+/* Product materials: photography, construction, process and supply. */
+.materials-page .page-header-inner{position:relative}.materials-page .page-menu{position:static}.materials-page .page-menu nav{right:0;top:calc(100% - 4px)}
+.materials-page .page-hero{padding-bottom:48px}.materials-page h1{color:var(--accent);font-size:clamp(42px,5vw,66px)}
+.blank-intro,.stencil-intro{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:64px;align-items:center}
+.blank-intro>*{min-width:0}.blank-hero-photo img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:4px}
+.materials-page.materials-page--stencils h1{font-size:clamp(38px,4.4vw,58px)}
+.hero-subtitle{font-size:clamp(24px,2.2vw,30px);letter-spacing:-.03em;line-height:1.4;margin-top:22px;text-wrap:balance}
+.intro-copy{margin-top:26px;color:var(--muted);font-size:16px;line-height:1.8}.intro-copy p+p{margin-top:18px}.intro-copy .text-link{margin-top:22px}
+.stencil-intro .lead{font-size:16px;line-height:1.8}.stencil-hero-photo img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:4px}.stencil-hero-photo figcaption{font-size:12px;color:var(--muted);margin-top:12px;line-height:1.7}
+.materials-page .construction-section{padding-top:38px}.blank-construction{margin:38px 0 40px}.blank-drawing{position:relative}.blank-construction picture,.blank-construction img{display:block;width:100%}
+.blank-callout{position:absolute;left:81.5%;width:18.5%;padding:5px 0 5px 12px;background:white;font-size:16px;line-height:1.5;font-weight:500;transform:translateY(-50%)}
+.blank-callout--via{left:0;top:62%;width:25%;padding-left:0;transform:none}.blank-callout--mask{top:40.4%}.blank-callout--copper{top:58.9%}.blank-callout--ceramic{top:77.4%}
+.blank-construction figcaption{font-size:12px;line-height:1.7;color:var(--muted);margin-top:18px;max-width:850px}
+.materials-page .section-head{gap:48px}.materials-page .section-head .eyebrow{color:var(--accent)}.materials-page .section-head>p{padding-top:29px;font-size:15px;line-height:1.8}
+.section-subtitle{font-size:22px;letter-spacing:-.025em;line-height:1.4;margin-top:18px}.materials-page .section-head .section-subtitle{color:var(--ink)}
+.construction-details{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px 40px}.construction-details article{min-width:0;border-top:1px solid var(--line);padding-top:22px}
+.construction-details h3{font-size:21px;letter-spacing:-.025em}.construction-details p{font-size:14px;line-height:1.85;margin-top:14px;color:var(--muted)}
+.template-section{padding:36px 0}.templates-inner{display:flex;flex-wrap:wrap;align-items:center;gap:20px 32px}.templates-inner h2{font-size:24px}.template-links{display:flex;gap:12px;flex-wrap:wrap}.template-links a{padding:9px 15px;border:1px solid var(--line);border-radius:4px;font-size:13px;line-height:1.5;background:white}
+.template-links a:hover{border-color:var(--accent);color:var(--accent)}.template-links a span{margin-left:8px;color:var(--accent)}
+.outline-gallery .photo-button img{aspect-ratio:1;object-fit:contain;height:auto}.format-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:48px;align-items:start}
+.materials-page .price-item{grid-template-columns:minmax(110px,38%) minmax(0,1fr);padding:28px;gap:28px}.materials-page .price-item img{border-radius:4px}.materials-page .price{color:var(--accent)}
+.custom-format h3{font-size:24px}.custom-format p{font-size:14px;color:var(--muted);line-height:1.85;margin-top:18px}.custom-format .text-link{margin-top:22px}.materials-page .supply-note{font-size:12px;line-height:1.8}
+.materials-page .steps{gap:24px}.materials-page .step img{aspect-ratio:4/3}.materials-page .step h3:before{display:none}.materials-page .step h3{margin-top:18px;margin-bottom:10px}
+.materials-page .step .step-label{font-size:12px;color:var(--accent);margin:16px 0 -10px;line-height:1.4}
+.stencil-benefits{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:64px;align-items:start;margin-top:48px;padding-top:40px;border-top:1px solid var(--line)}
+.stencil-benefits .benefit+.benefit{margin-top:24px}.stencil-benefits h3{font-size:22px}.stencil-benefits p{font-size:15px;line-height:1.8;color:var(--muted);margin-top:12px;max-width:630px}
+.tin-figure{max-width:420px;width:100%;justify-self:end}.tin-figure .photo-button img{aspect-ratio:1;object-fit:cover;object-position:50% 50%}.tin-figure figcaption{font-size:12px;color:var(--muted);line-height:1.7;margin-top:12px}
+.stencil-supply .price-item{background:var(--soft)}.resources{display:flex;gap:15px 28px;flex-wrap:wrap;margin-top:32px}.resources a{font-size:13px;color:var(--accent)}
+.materials-page .cta-inner h2{font-size:clamp(30px,3vw,42px)}.materials-page .cta-actions{display:flex;flex-direction:column;align-items:flex-start;gap:18px;flex:none}.materials-page .cta-actions .button{margin-top:0}
+@media(max-width:1023px){
+ .blank-intro,.stencil-intro,.materials-page .section-head{gap:32px}.blank-intro,.stencil-intro{grid-template-columns:1fr 1fr}.intro-copy{font-size:14px}.blank-callout{font-size:13px}
+ .construction-details{grid-template-columns:1fr 1fr;gap:28px 32px}.format-grid{gap:32px}.materials-page .price-item{grid-template-columns:110px minmax(0,1fr);gap:20px;padding:24px}.stencil-benefits{gap:36px}
+}
+@media(max-width:767px){
+ .blank-intro,.stencil-intro{grid-template-columns:1fr;gap:28px}.blank-hero-text{display:contents}.blank-hero-title{grid-row:1}.blank-hero-photo{grid-row:2;max-width:520px;width:100%}.intro-copy{grid-row:3;font-size:15px;margin-top:0}
+ .materials-page.materials-page--stencils h1{font-size:38px}.stencil-intro .lead{font-size:15px}.stencil-hero-photo{max-width:520px}.hero-subtitle{font-size:25px;margin-top:16px}.blank-callout{display:none}.blank-construction{margin:28px 0 30px}.blank-construction figcaption{font-size:11px;margin-top:14px}
+ .materials-page .construction-section{padding-top:20px}.materials-page .section-head{grid-template-columns:1fr;gap:22px}.materials-page .section-head>p{padding-top:0;font-size:14px}
+ .construction-details{gap:26px 20px}.construction-details h3{font-size:18px}.construction-details p{font-size:13px;margin-top:12px}.templates-inner{gap:20px}.template-links{gap:10px}
+ .outline-gallery,.format-grid{grid-template-columns:1fr}.format-grid{gap:28px}.materials-page .price-item{grid-template-columns:minmax(100px,35%) minmax(0,1fr);gap:20px}.custom-format p{font-size:14px}
+ .materials-page .steps{gap:30px 18px}.stencil-benefits{grid-template-columns:1fr;gap:28px;margin-top:34px;padding-top:30px}.stencil-benefits p{font-size:14px}.tin-figure{max-width:300px;justify-self:start}.resources{gap:12px 22px}.materials-page .cta-actions{margin-top:26px}
+}
+@media(max-width:359px){.construction-details{grid-template-columns:1fr;gap:22px}.materials-page .steps{grid-template-columns:1fr}.materials-page .price-item{grid-template-columns:80px minmax(0,1fr);gap:16px;padding:20px}.materials-page .price-item h3{font-size:20px}}
+
+/* Supply cards v3: original editorial layout, uncropped images, compact pricing. */
+.materials-page .blank-hero-photo img,
+.materials-page .stencil-hero-photo img,
+.materials-page .step img,
+.materials-page .tin-figure .photo-button img{height:auto;aspect-ratio:auto;object-fit:contain}
+.materials-page .outline-gallery .photo-button{overflow:visible;background:transparent}
+.materials-page .outline-gallery .photo-button img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:contain}
+.materials-page .format-grid--supply{display:flex;flex-direction:column;gap:32px;align-items:stretch}
+.materials-page .format-grid--supply>.custom-format{max-width:900px;order:0}
+.materials-page .supply-card{display:grid;grid-template-columns:340px minmax(0,1fr);order:1;border:1px solid var(--line);border-radius:4px;background:white;overflow:hidden;min-width:0}
+.materials-page .supply-card>figure{margin:0;align-self:start}
+.materials-page .supply-card>figure>img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:contain}
+.materials-page .home-product__body{padding:30px 36px;display:flex;flex-direction:column;align-items:flex-start;min-width:0}
+.materials-page .supply-card h3{font-size:24px;line-height:1.35;letter-spacing:-.025em;margin-bottom:14px}
+.materials-page .home-product__body>p{font-size:14px;line-height:1.75;color:var(--muted);max-width:620px}
+.materials-page .home-product__body>.home-product__price{font-size:27px;line-height:1.3;color:var(--ink);letter-spacing:-.02em;margin-top:22px}
+.materials-page .home-product__price>span{font-size:14px;color:var(--muted);letter-spacing:0}
+.materials-page .home-product__body>.home-product__terms{font-size:12px;line-height:1.6;margin-top:8px}
+.materials-page .supply-card .home-link{display:inline-flex;gap:8px;font-size:14px;color:var(--accent);margin-top:auto;padding-top:22px}
+.materials-page .supply-card .home-link:hover{text-decoration:underline;text-underline-offset:4px}
+@media(min-width:1024px) and (max-width:1199px){
+ .materials-page .supply-card{grid-template-columns:300px minmax(0,1fr)}
+ .materials-page .home-product__body{padding:26px 30px}
+ .materials-page .supply-card h3{margin-bottom:10px}
+ .materials-page .home-product__body>.home-product__price{margin-top:16px}
+ .materials-page .supply-card .home-link{padding-top:16px}
+}
+@media(max-width:1023px){
+ .materials-page .supply-card{grid-template-columns:280px minmax(0,1fr)}
+ .materials-page .home-product__body{padding:22px 26px}
+ .materials-page .supply-card h3{font-size:22px;margin-bottom:10px}
+ .materials-page .home-product__body>p{font-size:13px;line-height:1.65}
+ .materials-page .home-product__body>.home-product__price{font-size:25px;line-height:1.3;margin-top:16px}
+ .materials-page .home-product__body>.home-product__terms{font-size:12px;margin-top:6px}
+ .materials-page .supply-card .home-link{font-size:13px;padding-top:14px}
+}
+@media(max-width:700px){
+ .materials-page .supply-card{grid-template-columns:1fr;width:100%;max-width:480px;align-self:center}
+ .materials-page .home-product__body{padding:24px}
+ .materials-page .supply-card h3{font-size:24px;margin-bottom:14px}
+ .materials-page .home-product__body>p{font-size:14px;line-height:1.75}
+ .materials-page .home-product__body>.home-product__price{font-size:27px;margin-top:22px}
+ .materials-page .supply-card .home-link{font-size:14px;padding-top:22px}
+}

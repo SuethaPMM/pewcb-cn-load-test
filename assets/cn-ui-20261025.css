@@ -1,0 +1,9 @@
+/* Original cookie banner; only acceptance button is emphasized. */
+#pewcb-cookie-banner.pewcb-cookie__banner [data-cookie-action="accept"]{background:#ff3500;border-color:#ff3500;color:#fff}
+#pewcb-cookie-banner.pewcb-cookie__banner [data-cookie-action="accept"]:hover{background:#de3000;border-color:#de3000;color:#fff}
+.pewcb-video.pewcb-video--voice{aspect-ratio:8/5}
+.pewcb-video.pewcb-video--voice>img.pewcb-video__poster{aspect-ratio:8/5;object-fit:contain}
+.pewcb-video.pewcb-video--voice>video{object-fit:contain}
+.pewcb-v5 .rev-media.rev-media--bga,.project-video[data-video*="pewcb-bga-demo-zh-20261025"]{aspect-ratio:8/5}
+.pewcb-v5 .rev-media.rev-media--bga>video,.project-video[data-video*="pewcb-bga-demo-zh-20261025"]>video{width:100%;height:100%;object-fit:contain}
+.pewcb-v5 .rev-media.rev-media--bga>.rev-media__poster,.project-video[data-video*="pewcb-bga-demo-zh-20261025"]>img{width:100%;height:100%;object-fit:contain;aspect-ratio:8/5}

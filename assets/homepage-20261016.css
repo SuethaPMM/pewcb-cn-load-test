@@ -1,0 +1,87 @@
+/* Homepage-only revisions. Product and project page styles are unchanged. */
+.pewcb-v5 .home-link{color:var(--accent);font-size:14px;display:inline-flex;align-items:center;gap:8px;line-height:1.6}
+.pewcb-v5 .home-link:hover{text-decoration:underline;text-underline-offset:5px}
+.pewcb-v5 .home-eyebrow{font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);margin-bottom:16px;font-weight:400}
+.pewcb-v5 .home-caption{margin-top:12px;color:var(--muted);font-size:12px;line-height:1.65}
+.pewcb-v5 .home-workflow-link{min-height:44px;padding:10px 0;background:transparent;border:0;color:#ff825f;font-weight:400}
+.pewcb-v5 .home-workflow-link:hover{background:transparent;color:white;text-decoration:underline;text-underline-offset:5px}
+.pewcb-v5 #BGA .rev-media__play{inset:0;width:100%;height:100%;padding:0;background:transparent;box-shadow:none;cursor:pointer;border-radius:4px}
+.pewcb-v5 #BGA .rev-media__play::before{content:"";position:absolute;left:50%;top:50%;width:64px;height:64px;transform:translate(-50%,-50%);background:rgba(255,255,255,.94);border-radius:50%;box-shadow:0 3px 20px #0003;transition:transform .2s,background .2s}
+.pewcb-v5 #BGA .rev-media__play svg{position:relative;width:18px;margin-left:4px}
+.pewcb-v5 #BGA .rev-media__play:hover::before{background:white;transform:translate(-50%,-50%) scale(1.08)}
+.pewcb-v5 #BGA .rev-media__play:focus-visible{outline:3px solid var(--accent);outline-offset:-3px}
+.pewcb-v5 #Blanks .pewcb-blanks__header{max-width:950px}
+.pewcb-v5 .home-blanks-action{margin-top:32px}
+.pewcb-v5 .home-blanks-action .pewcb-blanks__button{margin-top:0}
+.pewcb-v5 .pewcb-shapes__image{object-fit:contain}
+.pewcb-v5 .home-stencil-video{width:100%;aspect-ratio:16/9;object-fit:contain;border-radius:4px;background:#222426}
+.pewcb-v5 .pewcb-stencils__material{width:100%;max-width:none;justify-self:stretch}
+.pewcb-v5 .rev-stencils-intro{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:48px;align-items:center}
+.pewcb-v5 .pewcb-stencils__header{margin-bottom:24px}
+.pewcb-v5 .pewcb-lab__content{grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:64px;align-items:start}
+.pewcb-v5 .pewcb-lab__intro{margin:0;max-width:none}
+.pewcb-v5 .pewcb-lab__title{max-width:410px}
+.pewcb-v5 .pewcb-lab__lead{margin-top:26px;font-size:15px}
+.pewcb-v5 .home-lab-dimensions{margin-top:26px;padding-top:22px;border-top:1px solid var(--line);font-size:17px;color:var(--ink)}
+.pewcb-v5 .home-lab-dimensions span{padding-inline:8px;color:var(--accent)}
+.pewcb-v5 .home-lab-safety{font-size:13px;margin-top:18px}
+.pewcb-v5 .pewcb-lab__demo{margin:0;padding-top:5px}
+.pewcb-v5 .home-filter{margin-top:56px;padding:36px;background:white;border:1px solid var(--line);border-radius:4px;display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr);gap:40px;align-items:center}
+.pewcb-v5 .home-filter figure img{width:100%;height:auto;object-fit:contain;border-radius:4px}
+.pewcb-v5 .home-filter h3{font-size:clamp(28px,2.6vw,36px);margin-bottom:24px}
+.pewcb-v5 .home-filter__copy>p{font-size:14px}
+.pewcb-v5 .home-filter__copy>.home-eyebrow{font-size:11px}
+.pewcb-v5 .home-filter__stages{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:28px 0}
+.pewcb-v5 .home-filter__stages>div{border-top:2px solid var(--accent);padding-top:12px;font-size:12px;line-height:1.5}
+.pewcb-v5 .home-filter__stages span{display:block;font-size:10px;color:var(--muted);margin-bottom:9px}
+.pewcb-v5 .home-filter__service{font-size:13px!important}
+.pewcb-v5 .home-section-head{max-width:900px;margin-bottom:40px}
+.pewcb-v5 .home-section-head>p:last-child{margin-top:24px;max-width:800px}
+.pewcb-v5 .home-app-layout{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(0,1fr);gap:48px;align-items:center}
+.pewcb-v5 .home-app-preview{margin:0;min-width:0}
+.pewcb-v5 .home-app-video{display:block;width:100%;height:auto;aspect-ratio:1600/842;background:#858a8f;border-radius:4px;object-fit:contain;cursor:pointer}
+.pewcb-v5 .home-app-video:focus-visible{outline:2px solid var(--accent);outline-offset:5px}
+.pewcb-v5 .home-app-copy>p{font-size:15px;line-height:1.8}
+.pewcb-v5 .home-app-copy>p+p{margin-top:22px}
+.pewcb-v5 .home-app-download{margin-top:27px}
+.pewcb-v5 .home-app-download .pewcb-hero__button{font-size:14px;padding:13px 20px}
+@media(max-width:1100px){.pewcb-v5 .home-app-layout{gap:32px;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr)}}
+@media(max-width:767px){.pewcb-v5 .home-app-layout{grid-template-columns:1fr;gap:28px}.pewcb-v5 .home-app-copy>p{font-size:15px}}
+.pewcb-v5 .home-fabs-map{border:0;background:transparent;padding:0;overflow:visible;aspect-ratio:auto;min-height:0;display:block}
+.pewcb-v5 .home-fabs-map iframe{width:100%;height:580px;border:1px solid var(--line);border-radius:4px;display:block;background:#f2f3f5}
+.pewcb-v5 .home-fabs-map figcaption{margin-top:12px}
+.pewcb-v5 .pewcb-fabs__actions{flex-wrap:wrap}
+.pewcb-v5 .pewcb-fabs__button{gap:10px}
+.pewcb-v5 .home-specs{border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.pewcb-v5 .home-specs>summary{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:25px 0;cursor:pointer;list-style:none;font-size:clamp(28px,3vw,38px);line-height:1.25;letter-spacing:-.035em}
+.pewcb-v5 .home-specs>summary::-webkit-details-marker{display:none}
+.pewcb-v5 .home-specs__toggle{position:relative;flex:0 0 26px;height:26px}
+.pewcb-v5 .home-specs__toggle::before,.pewcb-v5 .home-specs__toggle::after{content:"";position:absolute;left:1px;top:12px;width:24px;height:2px;background:var(--accent)}
+.pewcb-v5 .home-specs__toggle::after{transform:rotate(90deg)}
+.pewcb-v5 .home-specs[open] .home-specs__toggle::after{transform:rotate(0)}
+.pewcb-v5 .home-specs .pewcb-specifications__layout{margin-top:0;padding:24px 0 36px}
+.pewcb-v5 .home-order-title{font-size:25px;margin-bottom:15px}
+.pewcb-v5 .home-order-copy{font-size:14px;margin-bottom:26px}
+.pewcb-v5 .home-consumables-intro{margin-top:22px;max-width:740px}
+.pewcb-v5 .pewcb-supplies__grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.pewcb-v5 .home-product{display:flex;flex-direction:column;min-width:0;border:1px solid var(--line);border-radius:4px;overflow:hidden;background:white}
+.pewcb-v5 .home-product>figure{margin:0;aspect-ratio:1;overflow:hidden}
+.pewcb-v5 .home-product>figure img{display:block;width:100%;height:100%;object-fit:cover}
+.pewcb-v5 .home-product__body{padding:26px;display:flex;flex-direction:column;flex:1}
+.pewcb-v5 .home-product h3{font-size:24px;margin-bottom:18px}
+.pewcb-v5 .home-product__body>p{font-size:14px}
+.pewcb-v5 .home-product__price{color:var(--ink);font-size:27px!important;line-height:1.25;margin-top:26px;letter-spacing:-.02em;font-weight:400}
+.pewcb-v5 .home-product__price span{font-size:14px;color:var(--muted);font-weight:300;letter-spacing:0}
+.pewcb-v5 .home-product__price--pending{font-size:20px!important;line-height:1.5}
+.pewcb-v5 .home-product__terms{margin-top:10px;font-size:12px!important;min-height:42px}
+.pewcb-v5 .home-product .home-link{margin-top:auto;padding-top:22px;align-self:start}
+.pewcb-v5 .made-teaser__card{border:1px solid var(--line);overflow:hidden}
+.pewcb-v5 .made-teaser__card img.home-board-complete{object-fit:cover;object-position:center;aspect-ratio:1}
+.pewcb-v5 .made-teaser__card:first-child img.home-board-complete{object-position:center 58%}
+.pewcb-v5 .made-teaser{background:white}
+.pewcb-v5 .home-contact-intro{margin-top:24px;margin-bottom:38px;max-width:790px}
+.pewcb-v5 .pewcb-contact__layout{margin-top:0}
+@media(min-width:1024px){.pewcb-v5 .pewcb-topbar--products .pewcb-topbar__pages{gap:20px}.pewcb-v5 .pewcb-topbar__inner{gap:20px}.pewcb-v5 .pewcb-topbar__ask{padding:9px 12px}}
+@media(max-width:1100px){.pewcb-v5 .pewcb-lab__content{gap:36px;grid-template-columns:1fr 1.1fr}.pewcb-v5 .home-filter{grid-template-columns:1fr;gap:30px}.pewcb-v5 .home-filter>figure{max-width:700px;margin-inline:auto}.pewcb-v5 .home-software__layout{grid-template-columns:1fr;gap:32px}.pewcb-v5 .home-software__copy{max-width:780px}}
+@media(max-width:767px){.pewcb-v5 .pewcb-lab__content{grid-template-columns:1fr;gap:28px}.pewcb-v5 .pewcb-lab__title{max-width:none}.pewcb-v5 .rev-stencils-intro{grid-template-columns:1fr;gap:30px}.pewcb-v5 .home-filter{padding:24px;margin-top:36px}.pewcb-v5 .home-filter__stages{grid-template-columns:repeat(2,minmax(0,1fr))}.pewcb-v5 .home-fabs-map iframe{height:430px}.pewcb-v5 .pewcb-supplies__grid{grid-template-columns:1fr}.pewcb-v5 .home-product__body{padding:24px}.pewcb-v5 #BGA .rev-media__play{padding:0}.pewcb-v5 #BGA .rev-media__play::before{width:52px;height:52px}.pewcb-v5 .home-specs .pewcb-specifications__layout{padding-top:16px}}
+@media(prefers-reduced-motion:reduce){.pewcb-v5{scroll-behavior:auto}}

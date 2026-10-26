@@ -1,0 +1,14 @@
+/* Native details menu: usable without JavaScript; one compact mobile header. */
+details[data-site-menu]{position:static}
+details[data-site-menu]>summary{display:flex;align-items:center;justify-content:center;width:42px;height:42px;padding:0;list-style:none;cursor:pointer;border:1px solid #d2d6da;border-radius:4px;line-height:1;color:#242627}
+details[data-site-menu]>summary::-webkit-details-marker{display:none}
+details[data-site-menu]>summary::after{display:none}
+details[data-site-menu]>summary:focus-visible{outline:2px solid #ff3500;outline-offset:4px}
+details[data-site-menu] svg{display:block;width:22px;height:22px}
+details[data-site-menu] .menu-close{display:none}
+details[data-site-menu][open] .menu-lines{display:none}
+details[data-site-menu][open] .menu-close{display:block}
+details[data-site-menu] nav{position:absolute;right:0;top:calc(100% + 1px);z-index:60;width:min(360px,100%);padding:10px;background:white;border:1px solid #d2d6da;border-radius:4px;box-shadow:0 12px 28px #24262718}
+details[data-site-menu] nav a{display:block;padding:13px 14px;min-height:46px;font-size:14px;line-height:1.5;border-radius:3px;color:#242627}
+details[data-site-menu] nav a[aria-current=page]{color:#ff3500}
+details[data-site-menu] nav a:hover{background:#f2f3f5}

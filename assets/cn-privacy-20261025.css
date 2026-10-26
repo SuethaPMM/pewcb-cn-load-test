@@ -1,0 +1,20 @@
+.policy-summary{padding:28px!important;background:#f2f3f5;border-left:3px solid #ff3500;border-radius:3px;margin-top:0!important}
+.policy-summary__list{margin:0 0 20px}
+.policy-summary__list>div{display:grid;grid-template-columns:100px minmax(0,1fr);gap:16px;padding:16px 0;border-bottom:1px solid #d2d6da}
+.policy-summary__list>div:first-child{padding-top:0}
+.policy-summary__list dt{font-size:14px;font-weight:500;color:#242627}
+.policy-summary__list dd{margin:0;color:#626b73;font-size:14px;line-height:1.9}
+.policy-document strong{font-weight:500;color:#242627}
+.policy-document .policy-summary p{font-size:14px;margin-bottom:0}
+.policy-recipient{border-top:1px solid #d2d6da;padding-top:8px;margin-top:26px}
+.policy-recipient h3{margin-top:18px}
+.policy-document code{font-size:12px;overflow-wrap:anywhere}
+label.cn-cross-border,label.cn-discord-choice{grid-column:1/-1;align-items:flex-start!important;line-height:1.75!important;margin-top:12px!important;font-size:13px!important;font-weight:400!important;letter-spacing:normal!important;text-transform:none!important}
+.cn-cross-border>span:last-child,.cn-discord-choice>span:last-child{min-width:0;overflow-wrap:anywhere}
+.cn-cross-border a,.cn-discord-choice a{color:#ff3500;text-decoration:underline;text-underline-offset:3px}
+.cn-discord-choice{color:#626b73!important}
+.store-order__consent.cn-cross-border,.store-order__consent.cn-discord-choice{display:flex;gap:10px}
+.store-order__consent.cn-cross-border input,.store-order__consent.cn-discord-choice input{flex:none;margin-top:4px}
+@media(max-width:767px){.policy-summary{padding:20px!important}.policy-summary__list>div{display:block;padding:14px 0}.policy-summary__list dt{margin-bottom:7px}.policy-summary__list dd{font-size:14px}.policy-hero h1{font-size:clamp(32px,8vw,44px)}.policy-recipient h3{font-size:18px}label.cn-cross-border,label.cn-discord-choice{font-size:13px!important}}
+
+.pewcb-contact__consent,.pewcb-early__consent,.store-order__consent{font-size:13px!important;line-height:1.8!important}
